@@ -19,9 +19,7 @@ struct CoinManager {
     let apiKey = "8C16581E-1EEB-47A7-B7A8-808D1D9BB5F6"
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
-    
     let coinArray = ["BTC", "ETH", "USDT", "XRP", "BCH", "DOT", "BNB", "LINK", "CRO", "LTC", "ADA", "EOS", "USDC", "TRX", "NEO", "DAI", "ZEC", "UNI", "THETA", "TUSD", "ONT", "MKR", "DGB"]
-//    let coinArray = ["BTC"]
     
     
     func fetchCryptoQuotation(ticket: String, currency: String) {

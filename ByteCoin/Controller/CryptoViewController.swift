@@ -127,6 +127,8 @@ extension CryptoViewController: UICollectionViewDataSource, UICollectionViewDele
 }
 
 
+// MARK: - CoinManagerDelegate
+
 extension CryptoViewController: CoinManagerDelegate {
     func didRecieveCoinData(_ coinManager: CoinManager, _ coinModel: CoinModel) {
         if coinModel.ticket != nil {
@@ -144,6 +146,8 @@ extension CryptoViewController: CoinManagerDelegate {
     
 }
 
+
+// MARK: - UIPickerViewDataSource, UIPickerViewDelegate
 
 extension CryptoViewController: UIPickerViewDataSource, UIPickerViewDelegate{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {

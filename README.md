@@ -9,6 +9,3 @@ Cryto Coin API: https://www.coinapi.io
 #  Dark Mode
 ![App ByteCoin Dark](https://github.com/jpedrosg/ByteCoin-iOS13/blob/master/Captura%20de%20Tela%202020-09-21%20às%2020.45.27.png?raw=true)
 
-
-#  Light Mode
-![App ByteCoin Light](https://github.com/jpedrosg/ByteCoin-iOS13/blob/master/Captura%20de%20Tela%202020-09-21%20às%2020.45.27.png?raw=true)
